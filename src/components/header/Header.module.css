@@ -1,0 +1,38 @@
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    height: 50px;
+  }
+  
+  .backButton {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+  }
+
+  .backButton svg {
+    color: #818181;
+  }
+  
+  .logoContainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .logoCircle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #0070f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: 1px solid;
+  }
